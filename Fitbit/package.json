@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "39094985-1ac2-432c-8065-6f5d86ca2c11",
+    "appType": "app",
+    "appDisplayName": "Template",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "access_internet",
+      "access_calendar",
+      "run_background",
+      "access_exercise",
+      "access_sleep"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Template"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

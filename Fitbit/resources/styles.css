@@ -1,0 +1,30 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+.application-fill           { fill: #5CB349; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#button1 #text {
+  text-buffer: "Banks close by";
+  font-size: "35";
+}
+
+#button2 #text {
+  text-buffer: "Donate";
+  font-size: "35";
+}
+
+#buttonBack1 #text {
+  text-buffer: "Back to menu";
+  font-size: "35";
+}
+
+#buttonBack2 #text {
+  text-buffer: "Back to menu";
+  font-size: "35";
+}
